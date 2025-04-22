@@ -32,7 +32,7 @@
 
 int main()
 {
-   std::string filename{"puzzle_input.txt"};
+   std::string filename{"../puzzle_input.txt"};
    std::string filename_out{"puzzle_out.txt"};
 
    std::fstream fs{filename, fs.in};
